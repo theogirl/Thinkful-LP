@@ -1,3 +1,15 @@
+/*-----BOX-SIZING FIX------*/
+
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*-----GLOBAL RESETS------*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,8 +59,9 @@ table {
 	border-spacing: 0;
 }
 
+/* End of Reset */
+/* Start of Custom Styles */
 
-/*----------LANDING PAGE STYLING-----------*/
 
 /*-----GENERAL-------*/
 
@@ -62,7 +75,7 @@ body {
 	font-weight: 400;
 	font-size: 1em;
 	letter-spacing: 0.03em;
-	color: #838994; 
+
 
 }
 
@@ -98,7 +111,6 @@ header > h3 {
 	height: 70px;
 	margin: 0 auto;
 	padding: 0 15px;
-	border: 1px pink solid;
 }
 
 
@@ -106,20 +118,31 @@ header > h3 {
 	margin-top: 15px;
 }
 
-.links {
+.top-navigation .links {
 	float: right;
 	margin-top: 30px;
 }
 
-.links li {
+.top-navigation .links > li {
 	display: inline-block;
 	margin-left: 25px;
 }
 
-.links li a {
+.top-navigation .links > li > a {
 	text-decoration: none;
-	color: grey;
+	color: #838994;
 }
+
+.top-navigation .links > li > a:hover {
+	text-decoration: none;
+	color: #333333;
+	cursor: pointer;
+}
+.top-navigation .links .active {
+	font-weight: 500;
+	color: #4c5058;
+}
+
 
 /*-----ICONS-------*/
 
