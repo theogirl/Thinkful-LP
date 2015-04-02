@@ -75,28 +75,49 @@ body {
 	font-weight: 400;
 	font-size: 1em;
 	letter-spacing: 0.03em;
-
-
 }
 
 
 /*-----HEADER-------*/
 
-header {
+.hero {
 	background-color: deeppink;
-	padding: 20em 0;
+	height: 45.938rem;
+	background-image: url(../images/first-background.jpg);
+	background-size: cover;
+	background-position: center bottom;
+    background-repeat: no-repeat;
 	color: white;
 	text-align: center;
+	overflow: auto;/*---this is to prevent this div from being pushed down due to margin-top on the child h1 element---*/
 }
 
-header > h1 {
+.hero .content > h1 {
 	font-size: 3em;
+	font-weight: 300;
+	margin-top: 4em;
+}
+.hero .content > h3 {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-top: 1em;
 }
 
-header > h3 {
-	font-size: 1.3em;
+.big-button {
+	padding: 15px 30px;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	margin-top: 25px;
+	color: white;
+	font-size: 1.1em;
+	border-radius: 5px;
+	border-style: none;
 }
 
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
 
 /*-----NAVIGATION-------*/
 
@@ -112,7 +133,6 @@ header > h3 {
 	margin: 0 auto;
 	padding: 0 15px;
 }
-
 
 .logo {
 	margin-top: 15px;

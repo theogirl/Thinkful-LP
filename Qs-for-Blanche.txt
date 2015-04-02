@@ -1,3 +1,3 @@
-- can't seem to get color of active link to show up 
+
 - is it ok to put the webkit-font-smoothing on the html element generally, rather than associated with a particular element?
 -is cursor: pointer really necessary to specify a hand for a link? seems automatic already
