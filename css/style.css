@@ -70,54 +70,12 @@ html {
 }
 
 body {
-	background-color: lightgrey;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 	letter-spacing: 0.03em;
 }
 
-
-/*-----HEADER-------*/
-
-.hero {
-	background-color: deeppink;
-	height: 45.938rem;
-	background-image: url(../images/first-background.jpg);
-	background-size: cover;
-	background-position: center bottom;
-    background-repeat: no-repeat;
-	color: white;
-	text-align: center;
-	overflow: auto;/*---this is to prevent this div from being pushed down due to margin-top on the child h1 element---*/
-}
-
-.hero .content > h1 {
-	font-size: 3em;
-	font-weight: 300;
-	margin-top: 4em;
-}
-.hero .content > h3 {
-	font-size: 1.5em;
-	font-weight: 300;
-	margin-top: 1em;
-}
-
-.big-button {
-	padding: 15px 30px;
-	background-color: #f15a29;
-	border-color: #f15a29;
-	margin-top: 25px;
-	color: white;
-	font-size: 1.1em;
-	border-radius: 5px;
-	border-style: none;
-}
-
-.big-button:hover {
-	background-color: #d9400e;
-	cursor: pointer;
-}
 
 /*-----NAVIGATION-------*/
 
@@ -164,12 +122,86 @@ body {
 }
 
 
+/*-----HEADER-------*/
+
+.hero {
+	background-color: deeppink;
+	height: 45.938rem;
+	background-image: url(../images/first-background.jpg);
+	background-size: cover;
+	background-position: center bottom;
+    background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	overflow: auto;/*---this is to prevent this div from being pushed down due to margin-top on the child h1 element---*/
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+	margin-top: 4em;
+}
+
+
+
+h2 {
+	font-size: 2.7em;
+	font-weight: 300;
+	margin-top: 4em;
+}
+
+.icons .content > h2 {
+	margin-top: 3em;
+}
+
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-top: 1em;
+}
+
+.thumbs h3 {
+	font-weight: 400;
+}
+
+.big-button {
+	padding: 15px 30px;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	margin-top: 25px;
+	color: white;
+	font-size: 1.1em;
+	border-radius: 5px;
+	border-style: none;
+}
+
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
+
+
 /*-----ICONS-------*/
 
+.icons {
+	height: 30rem;
+	text-align: center;
+}
 
+.thumbs {
+	margin: 3em 0;
+	height: 15rem;
+}
 
-
-
+.icon1,
+.icon2,
+.icon3 {
+	display:inline-block;
+	width: 11rem;
+	margin: 0 25px;
+	vertical-align: top;
+}
 
 
 /*-----FOOTER-------*/
