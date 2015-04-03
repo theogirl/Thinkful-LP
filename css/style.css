@@ -82,6 +82,9 @@ body {
 .top-navigation {
 	background-color: white;
 	border-bottom: 1px solid grey;
+	position: fixed;/*--this + width 100% + z-index is to make the nav stick to the top when things scroll!---*/
+	width: 100%;
+	z-index: 9999;
 
 }
 
@@ -194,9 +197,7 @@ h3 {
 	height: 15rem;
 }
 
-.icon1,
-.icon2,
-.icon3 {
+.icon-box {
 	display:inline-block;
 	width: 11rem;
 	margin: 0 25px;
