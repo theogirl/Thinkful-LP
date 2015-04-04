@@ -1,3 +1,8 @@
 
 - is it ok to put the webkit-font-smoothing on the html element generally, rather than associated with a particular element?
 -is cursor: pointer really necessary to specify a hand for a link? seems automatic already
+- what is a CDN exactly? when should you use it? (on the site i just built i included the FontAwesome fonts in the directory on the server rather than pointing to MAxCDN...)
+- when to use Network tab in Chrome tools... just to see if a file has loaded?
+
+- trouble making perfect circles in CSS (was adapting to content width)
+- also, I had used spans instead of a list, guess that would be better?
