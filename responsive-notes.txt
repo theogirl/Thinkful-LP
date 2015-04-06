@@ -1,0 +1,3 @@
+/*-----NOTES-----*/
+
+This is where I will put notes re: the responsive version of the Karma site, which I will build as an exercise. Also doing it to test branch and merge functionality with Git.
