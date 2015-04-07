@@ -139,7 +139,7 @@ hr {
 .hero {
 	background-color: #f15a29;
 	height: 45.938rem;
-	background-image: url(../../images/first-background.jpg);
+	background-image: url(../images/first-background.jpg);
 	background-size: cover;
 	background-position: center bottom;
     background-repeat: no-repeat;
